@@ -126,6 +126,6 @@ function finalizeStep(sid) {
   delete aggregators[sid];
 }
 
-server.listen(PORT, () => {
+server.listen(PORT, "0.0.0.0", () => {
   console.log("Coordinator running on port", PORT);
 });
