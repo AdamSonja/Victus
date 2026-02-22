@@ -1,0 +1,9 @@
+{
+  "name": "worker",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+  "circomlibjs": "*",
+    "minimist": "^1.2.8"
+  }
+}
